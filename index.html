@@ -227,12 +227,12 @@
         url = window.location["href"];
         console.log(url.substr(url.lastIndexOf("?")+1));
         file = allfiles[Number(url.substr(url.lastIndexOf("?")+1))];
-        /*if (url.lastIndexOf("?") == null){
+        if (url.lastIndexOf("?") == null){
             window.location = ".?0";
         }
         if (file == null){
             window.location = ".?0"
-        }*/
+        }
         document.getElementById("content").src = "https://glowup.github.io/"+file;
     }
     window.onload = getUrlAttributes();
