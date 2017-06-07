@@ -226,12 +226,12 @@
     function getUrlAttributes (){
         url = window.location["href"];
         file = allfiles[Number(url.substr(url.lastIndexOf("?")))];
-        if (url.lastIndexOf("?") == null){
+        /*if (url.lastIndexOf("?") == null){
             window.location = ".?0";
         }
         if (file == null){
             window.location = ".?0"
-        }
+        }*/
         document.getElementById("content").src = file;
     }
     window.onload(getUrlAttributes());
