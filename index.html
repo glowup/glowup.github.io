@@ -225,7 +225,7 @@
     allfiles = ["intro", "html", "html/syntax.html", "html/elements.html", "html/structure.html", "css"];
     function getUrlAttributes (){
         url = window.location["href"];
-        console.log(url.substr(url.lastIndexOf("?")+0));
+        console.log(url.substr(url.lastIndexOf("?")+1));
         file = allfiles[Number(url.substr(url.lastIndexOf("?")))];
         /*if (url.lastIndexOf("?") == null){
             window.location = ".?0";
