@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--This is a comment!!!!!!!!!!!!!!!!!!!!!!-->
+    <head>
+        <title>
+            glowup website
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="theme.css">
+        <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/517506099268685825/bNJ3Iazg.jpeg" />
+        <script type="text/javascript" src="main.js"></script>
+        <style type="text/css">
+            body {
+                color: red;
+                margin: 0;
+            }
+            h3{
+                color: white;
+            }
+            ul{
+                
+            }
+            iFrame {
+                outline: none;
+                border: none;
+                width: 70%;
+                height: 96%;
+            }
+            .header{
+                padding: 5px;
+                padding-left: 20px;
+            }
+            .header:hover{
+                background-color: rgb(200, 220, 255);
+            }
+            .normal{
+                padding: 2px;
+                padding-left: 40px;
+            }
+            .normal:hover{
+                background-color: rgb(200, 220, 255);
+            }
+            aside {
+                background-color: rgb(230, 250, 255);
+                color: rgb(255, 255, 255);
+                float: left;
+                padding-top: 10px;
+                padding-bottom: 10;
+                width: 30%;
+                height: 100%;
+                display: block;
+                overflow: scroll;
+            }
+            aside img{
+                margin-left: 5%;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            aside h3{
+                color: rgb(0, 62, 126);
+                font-family: Gill Sans MT;
+                font-weight: bold;
+                font-size: 20;
+                margin: 0;
+            }
+            aside h2{
+                color: rgb(0, 62, 126);
+                font-family: Gill Sans MT;
+                font-weight: 100;
+                font-size: 17;
+                margin: 0;
+            }
+            #sectionlist {
+                list-style-type: none;
+                       }
+            a.black {
+                text-decoration: none;
+                color: black;
+            }
+            a:link{
+                text-decoration: none;
+            }
+            .dropdown {
+                display: none;
+		    	background-color: rgb(255, 255, 255);
+		    	position: absolute;
+		    	cursor: pointer;
+		    	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+		    	z-index: 1000;
+		    	color: rgb(0, 62, 126);
+                font-family: Gill Sans MT;
+                font-weight: 100;
+                font-size: 17;
+                padding: 2px;
+                padding-left: 40px;
+                padding-right: 40px;
+                margin-top: 2px;
+                
+            }
+            .dropdown:hover {
+                background-color: rgb(240, 240, 240);
+            }
+            .normaldropdown {
+                padding: 2px;
+                padding-left: 40px;
+            }
+            .normaldropdown:hover{
+                background-color: rgb(200, 220, 255);
+            }
+            .normaldropdown:hover .dropdown {
+                display: block;
+            }
+            
+            header{
+                padding: 5;
+                background-color: rgb(0, 62, 126);
+                height: 4%;
+                
+            }
+            .socialmedia{
+                background-color: rgb(194, 53, 53);
+                transition: background-color 0.5s ease;
+                width: 15px;
+                height: 20px;
+                font-size: 17px;
+                font-weight: bold;
+                color: rgb(1, 40, 80);
+                padding-left: 6px;
+                padding-right: 2px;
+                font-family: Gill Sans;
+                margin-left: 8px;
+                display: inline;
+            }
+            .socialmedia:hover{
+                background-color: rgb(230, 230, 230);
+            }
+            
+        
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="https://www.facebook.com/internationalschoolofphnompenhcambodia?ref=hl">
+                <div class="socialmedia" style="margin-left: 50%">
+                    f
+                </div>
+            </a>
+            
+            <a href="http://www.youtube.com/channel/UC9qYcFkJ4QxknpQyoO8zaPA/videos">
+                <div class="socialmedia">
+                    <img src="http://i.imgur.com/WZr0sMK.png" width="15px" height="13px" style="margin-left: -4px; margin-right: -5px; position: relative">
+                </div>
+            </a>
+            
+            <a href="https://twitter.com/isppcambodia">
+                <div class="socialmedia">
+                    <img src="http://i.imgur.com/ZPhWCCg.png" width="15px" height="13px" style="margin-left: -4px; position: relative">
+                </div>
+            </a>
+            
+        </header>
+        <aside>
+            <a href="index.html">
+                <img src="http://i.imgur.com/icf76cX.png">
+            </a>
+            <div class="header">
+                <a href="introduction.html">
+                    <h3>
+                        Introduction
+                    </h3>
+                </a>
+            </div>
+            <div class="header">
+                <a href="html.html">
+                    <h3>
+                        html
+                    </h3>
+                </a>
+            </div>
+            <div class="section">
+                <div class="normal">
+                    <a href="html_syntax.html">
+                        <h2>
+                            Syntax
+                        </h2>
+                    </a>
+                </div>
+                <div class="normaldropdown">
+                    <a href="html_elements.html">
+                        <h2>
+                            Elements
+                        </h2>
+                    </a>
+                    <div class="dropdown normal">
+                        Element Documentation
+                    </div>
+                </div>
+                <div class="normal">
+                    <a href="html_syntax.html">
+                        <h2>
+                            Structure
+                        </h2>
+                    </a>
+                </div>
+            </div>
+            <div class="header">
+                <a href="css.html">
+                    <h3>
+                        CSS
+                    </h3>
+                </a>
+            </div>
+            
+            
+        </aside>
+     <iFrame src="intro.html" id="content"></iFrame>
+        
+    </body>
+</html>
+<script type="text/javascript">
+    allfiles = ["intro.html", "html.html", "html/syntax.html", "html/elements.html", "html/structure.html", "css.html"];
+    function getUrlAttributes (){
+        url = window.location;
+        file = allfiles[url.substr(url.lastIndexOf("?"))];
+        if (url.substr(url.lastIndexOf("?")) == null){
+            window.location = ".?0";
+        }
+        if (file == null){
+            window.location = ".?0"
+        }
+        document.getElementById("content").src = file;
+    }
+</script>
