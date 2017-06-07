@@ -6,9 +6,8 @@
             glowup website
         </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="theme.css">
         <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/517506099268685825/bNJ3Iazg.jpeg" />
-        <script type="text/javascript" src="main.js"></script>
+        <script src="jquery.min.js" type="tex/javascript"></script>
         <style type="text/css">
             body {
                 color: red;
@@ -169,14 +168,14 @@
                 <img src="http://i.imgur.com/icf76cX.png">
             </a>
             <div class="header">
-                <a href="introduction.html">
+                <a href=".?0">
                     <h3>
                         Introduction
                     </h3>
                 </a>
             </div>
             <div class="header">
-                <a href="html.html">
+                <a href=".?1">
                     <h3>
                         html
                     </h3>
@@ -184,14 +183,14 @@
             </div>
             <div class="section">
                 <div class="normal">
-                    <a href="html_syntax.html">
+                    <a href=".?2">
                         <h2>
                             Syntax
                         </h2>
                     </a>
                 </div>
                 <div class="normaldropdown">
-                    <a href="html_elements.html">
+                    <a href=".3?">
                         <h2>
                             Elements
                         </h2>
@@ -201,7 +200,7 @@
                     </div>
                 </div>
                 <div class="normal">
-                    <a href="html_syntax.html">
+                    <a href=".?4">
                         <h2>
                             Structure
                         </h2>
@@ -209,7 +208,7 @@
                 </div>
             </div>
             <div class="header">
-                <a href="css.html">
+                <a href=",?5">
                     <h3>
                         CSS
                     </h3>
@@ -225,7 +224,7 @@
 <script type="text/javascript">
     allfiles = ["intro", "html", "html/syntax.html", "html/elements.html", "html/structure.html", "css"];
     function getUrlAttributes (){
-        url = window.location;
+        url = window.location["href"];
         file = allfiles[url.substr(url.lastIndexOf("?"))];
         if (url.substr(url.lastIndexOf("?")) == null){
             window.location = ".?0";
@@ -235,5 +234,5 @@
         }
         document.getElementById("content").src = file;
     }
-    window.onload = getUrlAttributes();
+    window.onload(getUrlAttributes());
 </script>
